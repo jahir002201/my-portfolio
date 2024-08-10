@@ -1,0 +1,49 @@
+body {
+    line-height: 1.6;
+    color: #333;
+    padding-top: 56px; /* Adjust based on the height of the fixed navbar */
+}
+
+.section-title {
+    font-size: 2em;
+    color: #1a73e8;
+    margin-bottom: 20px;
+}
+
+.project img {
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #f8f9fa; /* Light gray color */
+    color: #333;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.bg-teal {
+    background-color: teal !important;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+}
